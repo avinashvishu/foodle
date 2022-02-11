@@ -394,14 +394,19 @@ h4 {
 }
 
 @media (max-width:653px) {
+    .h2 {
+        font-size: medium;
+    }
     .button1 {
         margin-left: 3%;
         margin-right: 77%;
         display: inline;
+        padding: 1px 16px;
     }
     .button2 {
         margin-right: -94%;
         display: inline;
+        padding: 1px 10px;
     }
     #container {
         height: 419px;
@@ -415,12 +420,18 @@ h4 {
         margin-right: 0px;
     }
     footer {
-        height: 106px;
+        height: 251px;
+    }
+    #contact_heading {
+        margin-left: 20%;
+        margin-top: 6%;
+        zoom: 1.5;
     }
     #contact_heading>p {
         font-size: 24px;
-        margin-top: 5px;
+        margin-top: 3px;
         color: rgb(231, 207, 207);
+        text-align: center;
     }
     .info_text1 {
         font-size: 12px;
@@ -429,6 +440,14 @@ h4 {
         margin-top: 0px;
         margin-left: 12px;
         color: #d7d7d9;
+    }
+    .info {
+        height: 119px;
+        width: 57%;
+        border-right: 2px solid whitesmoke;
+        float: left;
+        text-align: left;
+        position: absolute;
     }
     h4 {
         zoom: 1.5;
@@ -442,71 +461,161 @@ h4 {
     }
     .info_text1 {
         margin-left: 12px;
+        margin-right: 5px;
     }
     h4 {
         margin-left: 12px;
     }
-}
-
-@media (max-width:584px) {
-    .info_text1 {
-        margin-left: 12px;
+    #filter {
+        height: 400px;
+        width: 28%;
+        display: inline;
+        float: left;
+        margin-left: 6px;
+        margin-top: 13px;
+        background-color: #c5c2c2f2;
+        border-radius: 3%;
     }
-    h4 {
-        margin-left: 12px;
+    .del {
+        width: 58%;
+        height: 100%;
+        float: left;
+        color: #000000;
+        zoom: .87;
     }
-}
-
-@media (max-width:400px) {
-    bo .button2 {
-        padding: 5px 15px;
+    .list-items {
+        max-width: 91%;
+        height: 109px;
     }
-    footer {
-        height: 121px;
+    #contact {
+        width: 105%;
+        float: left;
+        display: inline-block;
+        margin-top: 88px;
     }
-    #contact_heading>p {
-        font-size: 24px;
+    .info {
+        height: 105px;
+        width: 102%;
+        border-right: 0px;
+        float: left;
+        text-align: left;
+        position: absolute;
     }
     #social_footer {
         height: 52px;
         width: 252%;
         float: right;
-        margin-top: 43%;
-        zoom: 1;
-        margin-right: 6%;
+        margin-top: 20%;
+        margin-right: 27%;
     }
-    .info {
-        height: 117px;
-    }
+}
+
+
+}
+@media (max-width:584px) {
     .info_text1 {
         margin-left: 12px;
     }
+    
     h4 {
         margin-left: 12px;
     }
 }
-
+@media (max-width:400px) {
+    .button2 {
+        padding: 5px 15px;
+    }
+    
+    footer {
+        height: 251px;
+    }
+    
+    #contact_heading>p {
+        font-size: 24px;
+    }
+    
+    #social_footer {
+        height: 51px;
+        width: 163%;
+        float: right;
+        margin-top: 18%;
+        zoom: 1;
+        margin-right: 29%;
+    }
+    
+    .info {
+        height: 117px;
+    }
+    
+    .info_text1 {
+        margin-left: 15px;
+    }
+    
+    h4 {
+        margin-left: 12px;
+    }
+}
 @media (max-width:390) {
     #container {
         height: 463px;
         width: 103%;
     }
+    
     #filter {
         height: 437px;
         width: 31%;
     }
+    
     #content {
         height: 433px;
         width: 62%;
     }
+    
     .list-items {
         max-width: 91%;
         height: 134px;
     }
+    
     .del>h1 {
         font-size: 10px;
     }
+    
     .del>p {
         font-size: 5px;
     }
+    
+    .button2 {
+        padding: 5px 15px;
+    }
+    
+    footer {
+        height: 251px;
+    }
+    
+    #contact_heading>p {
+        font-size: 24px;
+    }
+    
+    #social_footer {
+        height: 51px;
+        width: 163%;
+        float: right;
+        margin-top: 18%;
+        zoom: 1;
+        margin-right: 29%;
+    }
+    
+    .info {
+        height: 117px;
+    }
+    
+    .info_text1 {
+        margin-left: 15px;
+    }
+    
+    h4 {
+        margin-left: 12px;
+    }
+}
+
 }
