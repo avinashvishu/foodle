@@ -397,17 +397,6 @@ h4 {
     .h2 {
         font-size: medium;
     }
-    .button1 {
-        margin-left: 3%;
-        margin-right: 77%;
-        display: inline;
-        padding: 1px 16px;
-    }
-    .button2 {
-        margin-right: -94%;
-        display: inline;
-        padding: 1px 10px;
-    }
     #container {
         height: 419px;
         width: 99%;
@@ -418,6 +407,34 @@ h4 {
         height: 396px;
         width: 70%;
         margin-right: 0px;
+    }
+    #filter {
+        height: 400px;
+        width: 28%;
+        display: inline;
+        float: left;
+        margin-left: 6px;
+        margin-top: 13px;
+        background-color: #c5c2c2f2;
+        border-radius: 3%;
+    }
+    .del {
+        width: 58%;
+        height: 100%;
+        float: left;
+        color: #000000;
+        zoom: .87;
+    }
+    .button1 {
+        margin-left: 3%;
+        margin-right: 77%;
+        display: inline;
+        padding: 1px 16px;
+    }
+    .button2 {
+        margin-right: -94%;
+        display: inline;
+        padding: 1px 10px;
     }
     footer {
         height: 251px;
@@ -466,29 +483,12 @@ h4 {
     h4 {
         margin-left: 12px;
     }
-    #filter {
-        height: 400px;
-        width: 28%;
-        display: inline;
-        float: left;
-        margin-left: 6px;
-        margin-top: 13px;
-        background-color: #c5c2c2f2;
-        border-radius: 3%;
-    }
-    .del {
-        width: 58%;
-        height: 100%;
-        float: left;
-        color: #000000;
-        zoom: .87;
-    }
     .list-items {
         max-width: 91%;
         height: 109px;
     }
     #contact {
-        width: 105%;
+        width: 90%;
         float: left;
         display: inline-block;
         margin-top: 88px;
@@ -519,6 +519,11 @@ h4 {
     
     h4 {
         margin-left: 12px;
+    }
+    
+    .del>p {
+        font-size: 12px;
+        line-height: 10px;
     }
 }
 @media (max-width:400px) {
@@ -584,8 +589,17 @@ h4 {
         font-size: 5px;
     }
     
+    .button1 {
+        margin-left: 3%;
+        margin-right: 77%;
+        display: inline;
+        padding: 1px 16px;
+    }
+    
     .button2 {
-        padding: 5px 15px;
+        margin-right: -94%;
+        display: inline;
+        padding: 1px 10px;
     }
     
     footer {

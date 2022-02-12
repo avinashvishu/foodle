@@ -690,10 +690,21 @@ h4 {
 }
 
 @media (max-width:584px) {
+    .button1 {
+        margin-left: 3%;
+        margin-right: 77%;
+        display: inline;
+        padding: 1px 16px;
+    }
+    .button2 {
+        margin-right: -94%;
+        display: inline;
+        padding: 1px 10px;
+    }
     #text {
-        margin-left: 15%;
+        margin-left: 21%;
         margin-top: 36%;
-        font-size: 36px;
+        font-size: 29px;
     }
     h4 {
         margin-left: 12px;
@@ -749,8 +760,8 @@ h4 {
         color: thistle;
     }
     .logo {
-        margin-top: 14%;
-        margin-left: 45%;
+        margin-top: 11%;
+        margin-left: 41%;
     }
     .info_text1 {
         margin-left: 12px;
@@ -759,17 +770,17 @@ h4 {
     h4 {
         margin-left: 12px;
     }
+    select {
+        height: 60px;
+        width: 34%;
+    }
 }
 
 
 }
 @media (max-width:400px) {
-    .button2 {
-        padding: 5px 15px;
-    }
-    
     #text {
-        margin-left: 12%;
+        margin-left: 14%;
         margin-top: 37%;
         font-size: 30px;
     }
@@ -795,6 +806,10 @@ h4 {
     
     .container {
         width: 90%;
+    }
+    
+    .button2 {
+        padding: 5px 15px;
     }
     
     footer {
