@@ -18,13 +18,18 @@
         <nav class="navbar navbar-danger bg-danger">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
-                    <img src="https://i.ibb.co/JRybkMW/logo.png" alt="" width="40" height="34" class="d-inline-block align-text-top"> <span style="color: whitesmoke;font-size: 26px;">Foodle!</span>
-                    <button type="button" class="btn btn-primary"><i class="fa-solid fa-arrow-right-to-bracket"></i> Login</button>
+                    <img src="https://i.ibb.co/JRybkMW/logo.png" alt="" width="40" height="34" class="d-inline-block align-text-top"> <span class="me-5 " style="color: whitesmoke;font-size: 26px;">Foodle!</span>
+                    <button type="button" class="btn btn-primary "><i class="fa-solid fa-arrow-right-to-bracket"></i> Login</button>
                     <button type="button" class="btn btn-info"><i class="fa-solid fa-plus"></i> Sign</button>
 
                 </a>
+                <div id="containe">
+                    <label class="switch">
+                      <input type="checkbox" onclick="changeMode()">
+                      <span class="slider"></span>
+                    </label>
+                </div>
             </div>
-            <img src="images/moon.png" id="icon">
         </nav>
         <!-- <div id="heading"> 
             <span id="title">Foodle!<img src="https://i.ibb.co/JRybkMW/logo.png" alt="logo"></span>
@@ -59,7 +64,8 @@
             </select>
         </div>
     </div>
-    <div id="Quick_search">
+
+    <div class="Quick_search">
         <div><span id="quick_heading">Quick Search</span>
             <span id="quick_subheading">Discover Restuarents By Meal </span>
         </div>
@@ -182,6 +188,12 @@
         </div>
     </footer>
     <hr />
+    <script>
+        function changeMode() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
 
 </body>
 

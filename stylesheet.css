@@ -1,8 +1,60 @@
     body {
         margin: auto;
-        background-color: var(--secondary-color);
+        background-color: #f7f0e9;
+        transition: .6s;
     }
-    /* heading part of the website */
+    
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+    }
+    
+    .switch input {
+        display: none;
+    }
+    
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #ccc;
+        border-radius: 34px;
+        transition: .4s;
+    }
+    
+    .slider::before {
+        content: '';
+        position: absolute;
+        width: 26px;
+        height: 26px;
+        left: 4px;
+        bottom: 4px;
+        background: #fff;
+        border-radius: 50%;
+        transition: .4s;
+    }
+    
+    input:checked+.slider {
+        background: #b892ff;
+    }
+    
+    input:checked+.slider::before {
+        transform: translateX(26px);
+    }
+    
+    .dark-mode {
+        background: #141315;
+    }
+    
+    .dark-mode .Quick_search {
+        box-shadow: 7px 12px 30px 16px black;
+        background-color: #0d0909;
+    }
     
     #heading {
         height: 40px;
@@ -90,22 +142,6 @@
     a {
         text-decoration: none;
     }
-    
-    #icon {
-        width: 30px;
-        cursor: pointer;
-        margin-right: 20px;
-    }
-    
-    nav .container-fluid {
-        flex: 1;
-        text-align: right;
-    }
-    
-     :root {
-        --primary-color: #d9d8d9;
-        --secondary-color: #212121;
-    }
     /* search section*/
     
     #main_search {
@@ -158,7 +194,7 @@
     }
     /*Quick search starts here*/
     
-    #Quick_search {
+    .Quick_search {
         height: 500px;
         width: 80%;
         margin-left: 10%;
@@ -166,7 +202,7 @@
         margin-bottom: 5%;
         border-radius: 1%;
         box-shadow: 7px 12px 30px 16px dimgrey;
-        background-color: var(--secondary-color);
+        background-color: #f1f1f3;
     }
     
     #quick_heading {
@@ -378,7 +414,7 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
-        #Quick_search {
+        .Quick_search {
             height: 701px;
             width: 80%;
             margin-left: 10%;
@@ -386,7 +422,6 @@
             margin-bottom: 5%;
             border-radius: 1%;
             box-shadow: 7px 12px 30px 16px dimgrey;
-            background-color: var(--secondary-color);
         }
         #container {
             background-image: url(https://i.ibb.co/JRybkMW/logo.png);
@@ -539,7 +574,7 @@
             margin-top: 8%;
             margin-left: 43%;
         }
-        #Quick_search {
+        .Quick_search {
             margin-left: 15%;
             width: 70%;
             height: 1249px;
@@ -661,7 +696,7 @@
             height: 38px;
             width: 60%;
         }
-        #Quick_search {
+        .Quick_search {
             margin-left: 10%;
             width: 80%;
             height: 1249px;
